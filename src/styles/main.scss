@@ -1,0 +1,49 @@
+
+.hero-body {
+  background-image: url('../assets/dice-seamless-background-pattern-vector-1487905.jpg');
+  // background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 100px;
+  color: white;
+}
+
+.header {
+  background-color: rgb(65, 51, 52);;
+  border-radius: 100%;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  height: 100%;
+  display:flex;
+  flex-direction: column;
+}
+
+.card-content {
+    margin-top: auto;
+}
+
+ .gameboard {
+    width: 80%;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+
+ .wrapper {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+ }
